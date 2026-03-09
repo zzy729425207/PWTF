@@ -2,7 +2,7 @@
 
 Optical flow aims to measure pixel displacements between consecutive video frames, characterizing the continuous motion field within dynamic scenes. However, existing methods fail to simultaneously achieve robust long-range displacement estimation and precise fine-grained matching. To address this crucial trade-off issue, we propose PWTF, a novel method that Perceives Wide motion before Tracking Fine details. Specifically, PWTF first explores enhancing feature representation by three sets of cross-modal cues. Furthermore, PWTF introduces the Wide-Range Motion Perception module (WRMP), which utilizes Transformer to estimate pixel correlations and perceive large displacements from a global perspective. Finally, PWTF proposes the Fine-Grained Tracking (FGT) module, where FGT is an improved ConvGRU that utilizes potential global displacements provided by WRMP and is capable of tracking subtle displacements in high-dimensional features. Overall, these components collectively form a cohesive wide-to-fine pixel displacements measure architecture. Experiment results show that PWTF demonstrates more stable performance compared to the existing frameworks in terms of performing large-scale motion and detail tracking in the visualized comparison results. Additionally, PWTF achieves a new state-of-the-art in zero-shot generalization on the KITTI dataset.
 
-<embed src="PWTF.pdf" type="application/pdf" width="100%" height="600px" />
+(https://github.com/zzy729425207/PWTF/raw/main/PWTF.pdf)
 
 
 ## Requirements
