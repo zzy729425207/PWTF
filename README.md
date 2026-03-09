@@ -5,9 +5,6 @@ Optical flow aims to measure pixel displacements between consecutive video frame
 <img src="PWTF.pdf">
 
 
-## News
-- [2025/09] WAFT now achieves sota performance on all benchmarks and supports multiple backbones (Twins/DAv2/DINOv3).
-
 ## Requirements
 Our code is developed with pytorch 2.7.0, CUDA 12.8 and python 3.12. 
 ```Shell
